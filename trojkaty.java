@@ -30,7 +30,7 @@ class Trojkaty {
             }
         jakiTrojkat(a, b, c);
         }
-        /**
+        /*
         * Funkcja do sprawdzenia czy trójkąt o podanych bokach to trójkąt prostokątny.
         * @param {float} a - Długość pierwszego boku.
         * @param {float} b - Długość drugiego boku.
@@ -42,7 +42,6 @@ class Trojkaty {
             if (a * a + c * c == b*b) return true;
             return false;
         }
-
         /**
         * Funkcja do sprawdzenia czy trójkąt o podanych bokach może zostać zbudowany.
         * @param {float} a - Długość pierwszego boku.
